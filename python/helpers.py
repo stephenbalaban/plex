@@ -28,7 +28,6 @@ def ReadAllImages(char_dir, bg_dir, char_classes,
     k = 0
     max_allocate=1e5
     for class_index, cur_class in enumerate(char_classes):
-        cur_class = char_classes[class_index]
         if cur_class == '_':
             imgs_dir = bg_dir  # background class
         else:
